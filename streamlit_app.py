@@ -71,8 +71,8 @@ with tab2:
     if not calls_df.empty:
         for _, row in calls_df.iterrows():
             with st.expander(f"🎙️ {row['FILE_NAME']} ({row['DURATION_SEC']}s) - {row['SENTIMENT_LABEL']}"):
-                st.markdown(f"**Category:** {row['CALL_CATEGORY']}")
-                st.markdown(f"**Summary:** {row['CALL_SUMMARY']}")
+                st.write(f"**Category:** {row['CALL_CATEGORY']}")
+                st.write(f"**Summary:** {row['CALL_SUMMARY']}")
     else:
         st.info("No calls processed yet. Run the notebook first!")
 
@@ -100,14 +100,7 @@ with tab3:
     chats_df = session.sql(query).to_pandas()
     
     if not chats_df.empty:
-        st.dataframe(
-            chats_df,
-            column_config={
-                "IS_FLAGGED": st.column_config.CheckboxColumn("Flagged"),
-                "FLAG_REASONS": st.column_config.ListColumn("Issues")
-            },
-            use_container_width=True
-        )
+        st.dataframe(chats_df, use_container_width=True)
     else:
         st.info("No flagged chats found." if show_flagged_only else "No chats processed yet.")
 
@@ -141,7 +134,8 @@ with tab4:
                 col1, col2 = st.columns(2)
                 col1.metric("Alignment", row['ALIGNMENT_STATUS'])
                 col2.metric("Confidence", row['ALIGNMENT_CONFIDENCE'])
-                st.markdown(f"**Reason:** {row['ALIGNMENT_REASON']}")
+                reason_text = str(row['ALIGNMENT_REASON']).replace('$', '\\$')
+                st.write(f"**Reason:** {reason_text}")
                 if row['CATEGORY_MISMATCH_FLAG']:
                     st.warning("Category mismatch detected")
                 if row['PRODUCT_MISMATCH_FLAG']:
