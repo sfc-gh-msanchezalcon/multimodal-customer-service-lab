@@ -2,17 +2,16 @@
   <img src="assets/banner.svg" alt="Multimodal Customer Service Analytics Lab" width="100%">
 </p>
 
-# Lab Guide: Multimodal Customer Service Analytics
-
-This step-by-step guide walks you through building an AI-powered customer service analytics system using Snowflake Cortex AI functions.
+<h1 align="center">Lab Guide</h1>
+<p align="center"><em>Build an AI-powered customer service analytics system using Snowflake Cortex AI</em></p>
 
 <br>
 
-## 🚀 Before You Begin
+<h2><img src="https://img.shields.io/badge/PREREQUISITES-29B5E8?style=for-the-badge" alt="Prerequisites"/></h2>
 
 | | |
 |---|---|
-| **Need a Snowflake account?** | 👉 [Sign up for a free 30-day trial](https://signup.snowflake.com/) |
+| **Need a Snowflake account?** | [Sign up for a free 30-day trial](https://signup.snowflake.com/) |
 | **Region** | Must be in a [supported Cortex region](https://docs.snowflake.com/en/user-guide/snowflake-cortex/llm-functions#label-cortex-llm-availability) |
 | **Warehouse** | MEDIUM or larger recommended for audio processing |
 | **Role** | `ACCOUNTADMIN` or equivalent privileges |
@@ -24,7 +23,7 @@ This step-by-step guide walks you through building an AI-powered customer servic
 
 <br>
 
-## 📋 Lab Agenda
+<h2><img src="https://img.shields.io/badge/LAB_AGENDA-29B5E8?style=for-the-badge" alt="Lab Agenda"/></h2>
 
 | Module | Topic | Duration |
 |:------:|-------|:--------:|
@@ -42,9 +41,9 @@ This step-by-step guide walks you through building an AI-powered customer servic
   <img src="assets/divider.svg" width="400">
 </p>
 
-## Module 0: Environment Setup
+<h2><img src="https://img.shields.io/badge/MODULE_0-11567C?style=for-the-badge" alt="Module 0"/> &nbsp; Environment Setup</h2>
 
-⏱️ **Duration: 10 minutes**
+**Duration: 10 minutes**
 
 ### What You'll Do
 Set up the database, stages, and sample data needed for the lab.
@@ -86,9 +85,9 @@ Set up the database, stages, and sample data needed for the lab.
   <img src="assets/divider.svg" width="400">
 </p>
 
-## Module 1: Audio Processing Pipeline
+<h2><img src="https://img.shields.io/badge/MODULE_1-11567C?style=for-the-badge" alt="Module 1"/> &nbsp; Audio Processing Pipeline</h2>
 
-⏱️ **Duration: 30 minutes**
+**Duration: 30 minutes**
 
 ### What You'll Learn
 - Convert audio files to text with `AI_TRANSCRIBE`
@@ -101,7 +100,7 @@ Set up the database, stages, and sample data needed for the lab.
 
 1. **Import the notebook**:
    - Download [`notebook.ipynb`](notebook.ipynb)
-   - In Snowsight: **Projects** → **Notebooks** → **Import .ipynb file**
+   - In Snowsight: **Projects** > **Notebooks** > **Import .ipynb file**
    - Select database: `MULTIMODAL_CUSTOMER_SERVICE`, schema: `DATA`
 
 2. **Run Step 0: Explore Data** cells to see what you're working with
@@ -145,11 +144,11 @@ Set up the database, stages, and sample data needed for the lab.
 <details>
 <summary><strong>AI_CLASSIFY categories used</strong></summary>
 
-1. 🔒 Fraud & Security Issues
-2. 🖥️ Technical & System Errors
-3. 💳 Payment & Transaction Problems
-4. 📝 Account Changes & Modifications
-5. ❓ General Inquiries & Information Requests
+1. Fraud & Security Issues
+2. Technical & System Errors
+3. Payment & Transaction Problems
+4. Account Changes & Modifications
+5. General Inquiries & Information Requests
 </details>
 
 <br>
@@ -158,9 +157,9 @@ Set up the database, stages, and sample data needed for the lab.
   <img src="assets/divider.svg" width="400">
 </p>
 
-## Module 2: Document Processing
+<h2><img src="https://img.shields.io/badge/MODULE_2-11567C?style=for-the-badge" alt="Module 2"/> &nbsp; Document Processing</h2>
 
-⏱️ **Duration: 15 minutes**
+**Duration: 15 minutes**
 
 ### What You'll Learn
 - Extract structured content from PDFs with `PARSE_DOCUMENT`
@@ -195,9 +194,9 @@ Set up the database, stages, and sample data needed for the lab.
   <img src="assets/divider.svg" width="400">
 </p>
 
-## Module 3: Chat & Ticket Validation
+<h2><img src="https://img.shields.io/badge/MODULE_3-11567C?style=for-the-badge" alt="Module 3"/> &nbsp; Chat & Ticket Validation</h2>
 
-⏱️ **Duration: 25 minutes**
+**Duration: 25 minutes**
 
 ### What You'll Learn
 - Validate agent classifications with AI
@@ -254,9 +253,9 @@ AI_EXTRACT(
   <img src="assets/divider.svg" width="400">
 </p>
 
-## Module 4: Build Streamlit Dashboard
+<h2><img src="https://img.shields.io/badge/MODULE_4-11567C?style=for-the-badge" alt="Module 4"/> &nbsp; Build Streamlit Dashboard</h2>
 
-⏱️ **Duration: 25 minutes**
+**Duration: 25 minutes**
 
 ### What You'll Build
 An interactive dashboard showing:
@@ -269,7 +268,7 @@ An interactive dashboard showing:
 ### Steps
 
 1. **Create a new Streamlit app**:
-   - In Snowsight: **Projects** → **Streamlit** → **+ Streamlit App**
+   - In Snowsight: **Projects** > **Streamlit** > **+ Streamlit App**
    - Name: `Customer Service Analytics`
    - Database: `MULTIMODAL_CUSTOMER_SERVICE`
    - Schema: `DATA`
@@ -294,9 +293,9 @@ An interactive dashboard showing:
   <img src="assets/divider.svg" width="400">
 </p>
 
-## Module 5: Explore & Interact
+<h2><img src="https://img.shields.io/badge/MODULE_5-11567C?style=for-the-badge" alt="Module 5"/> &nbsp; Explore & Interact</h2>
 
-⏱️ **Duration: 15 minutes**
+**Duration: 15 minutes**
 
 ### Exercises
 
@@ -311,7 +310,7 @@ An interactive dashboard showing:
 
 ---
 
-## 🔧 Troubleshooting
+<h2><img src="https://img.shields.io/badge/TROUBLESHOOTING-29B5E8?style=for-the-badge" alt="Troubleshooting"/></h2>
 
 <details>
 <summary><strong>"Function AI_TRANSCRIBE does not exist"</strong></summary>
@@ -347,7 +346,7 @@ Ensure your role has:
 
 ---
 
-## 🧹 Clean Up
+<h2><img src="https://img.shields.io/badge/CLEAN_UP-29B5E8?style=for-the-badge" alt="Clean Up"/></h2>
 
 To remove all lab resources:
 
@@ -359,21 +358,21 @@ DROP DATABASE IF EXISTS MULTIMODAL_CUSTOMER_SERVICE;
 
 ---
 
-## 🎉 Congratulations!
+<h2><img src="https://img.shields.io/badge/CONGRATULATIONS-11567C?style=for-the-badge" alt="Congratulations"/></h2>
 
 You've built a complete multimodal customer service analytics system that:
 
 | | Capability |
 |:---:|------------|
-| ✅ | Transcribes audio calls to searchable text |
-| ✅ | Translates conversations to English automatically |
-| ✅ | Detects customer sentiment |
-| ✅ | Classifies issues into business categories |
-| ✅ | Generates AI summaries |
-| ✅ | Parses PDF documents |
-| ✅ | Validates agent classifications |
-| ✅ | Cross-references tickets and chats |
-| ✅ | Displays insights in an interactive dashboard |
+| | Transcribes audio calls to searchable text |
+| | Translates conversations to English automatically |
+| | Detects customer sentiment |
+| | Classifies issues into business categories |
+| | Generates AI summaries |
+| | Parses PDF documents |
+| | Validates agent classifications |
+| | Cross-references tickets and chats |
+| | Displays insights in an interactive dashboard |
 
 ### Next Steps
 
@@ -388,7 +387,7 @@ You've built a complete multimodal customer service analytics system that:
 
 ---
 
-## 📚 Resources
+<h2><img src="https://img.shields.io/badge/RESOURCES-29B5E8?style=for-the-badge" alt="Resources"/></h2>
 
 | Resource | Link |
 |----------|------|
