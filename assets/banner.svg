@@ -1,14 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#29B5E8"/>
-      <stop offset="50%" style="stop-color:#1a73e8"/>
-      <stop offset="100%" style="stop-color:#6366f1"/>
-    </linearGradient>
-    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#29B5E8"/>
-      <stop offset="100%" style="stop-color:#11567C"/>
-    </linearGradient>
     <linearGradient id="snowflakeBlue" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#29B5E8"/>
       <stop offset="100%" style="stop-color:#0D9DD9"/>
@@ -54,37 +45,37 @@
   <!-- Accent line -->
   <rect x="480" y="158" width="240" height="3" rx="1.5" fill="#29B5E8"/>
   
-  <!-- Tech badges - clean, no emojis -->
-  <g transform="translate(155, 195)">
-    <!-- Badge 1: Audio -->
+  <!-- Capability badges -->
+  <g transform="translate(175, 195)">
+    <!-- Badge 1: Transcribe -->
     <g>
-      <rect x="0" y="0" width="145" height="34" rx="17" fill="rgba(41,181,232,0.2)" stroke="#29B5E8" stroke-width="1"/>
-      <text x="72" y="22" text-anchor="middle" font-family="'SF Mono', 'Consolas', monospace" font-size="13" fill="white" font-weight="500">AI_TRANSCRIBE</text>
+      <rect x="0" y="0" width="115" height="34" rx="17" fill="rgba(41,181,232,0.2)" stroke="#29B5E8" stroke-width="1"/>
+      <text x="57" y="22" text-anchor="middle" font-family="'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="14" fill="white" font-weight="500">Transcribe</text>
     </g>
-    <!-- Badge 2: Sentiment -->
-    <g transform="translate(155, 0)">
-      <rect x="0" y="0" width="135" height="34" rx="17" fill="rgba(41,181,232,0.2)" stroke="#29B5E8" stroke-width="1"/>
-      <text x="67" y="22" text-anchor="middle" font-family="'SF Mono', 'Consolas', monospace" font-size="13" fill="white" font-weight="500">AI_SENTIMENT</text>
+    <!-- Badge 2: Analyze -->
+    <g transform="translate(125, 0)">
+      <rect x="0" y="0" width="100" height="34" rx="17" fill="rgba(41,181,232,0.2)" stroke="#29B5E8" stroke-width="1"/>
+      <text x="50" y="22" text-anchor="middle" font-family="'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="14" fill="white" font-weight="500">Analyze</text>
     </g>
-    <!-- Badge 3: Classify -->
-    <g transform="translate(300, 0)">
-      <rect x="0" y="0" width="125" height="34" rx="17" fill="rgba(41,181,232,0.2)" stroke="#29B5E8" stroke-width="1"/>
-      <text x="62" y="22" text-anchor="middle" font-family="'SF Mono', 'Consolas', monospace" font-size="13" fill="white" font-weight="500">AI_CLASSIFY</text>
+    <!-- Badge 3: Extract -->
+    <g transform="translate(235, 0)">
+      <rect x="0" y="0" width="95" height="34" rx="17" fill="rgba(41,181,232,0.2)" stroke="#29B5E8" stroke-width="1"/>
+      <text x="47" y="22" text-anchor="middle" font-family="'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="14" fill="white" font-weight="500">Extract</text>
     </g>
-    <!-- Badge 4: Extract -->
-    <g transform="translate(435, 0)">
-      <rect x="0" y="0" width="120" height="34" rx="17" fill="rgba(41,181,232,0.2)" stroke="#29B5E8" stroke-width="1"/>
-      <text x="60" y="22" text-anchor="middle" font-family="'SF Mono', 'Consolas', monospace" font-size="13" fill="white" font-weight="500">AI_EXTRACT</text>
+    <!-- Badge 4: Classify -->
+    <g transform="translate(340, 0)">
+      <rect x="0" y="0" width="95" height="34" rx="17" fill="rgba(41,181,232,0.2)" stroke="#29B5E8" stroke-width="1"/>
+      <text x="47" y="22" text-anchor="middle" font-family="'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="14" fill="white" font-weight="500">Classify</text>
     </g>
-    <!-- Badge 5: Streamlit -->
-    <g transform="translate(565, 0)">
+    <!-- Badge 5: Visualize -->
+    <g transform="translate(445, 0)">
       <rect x="0" y="0" width="105" height="34" rx="17" fill="rgba(41,181,232,0.2)" stroke="#29B5E8" stroke-width="1"/>
-      <text x="52" y="22" text-anchor="middle" font-family="'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="13" fill="white" font-weight="500">Streamlit</text>
+      <text x="52" y="22" text-anchor="middle" font-family="'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="14" fill="white" font-weight="500">Visualize</text>
     </g>
     <!-- Badge 6: Duration -->
-    <g transform="translate(680, 0)">
+    <g transform="translate(560, 0)">
       <rect x="0" y="0" width="100" height="34" rx="17" fill="#29B5E8"/>
-      <text x="50" y="22" text-anchor="middle" font-family="'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="13" font-weight="600" fill="#11567C">2 HOURS</text>
+      <text x="50" y="22" text-anchor="middle" font-family="'SF Pro Display', 'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="600" fill="#11567C">2 Hours</text>
     </g>
   </g>
   
