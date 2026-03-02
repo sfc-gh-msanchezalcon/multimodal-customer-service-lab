@@ -4,6 +4,8 @@
 
 A 2-hour hands-on workshop where you build an end-to-end AI-powered customer service analytics system entirely within Snowflake — processing audio, text, and PDF data using pure SQL.
 
+> **Note**: This repo is an enhanced version of the official [Snowflake Quickstart](https://www.snowflake.com/en/developers/guides/extracting-insights-from-multimodal-customer-service-data/). We've added detailed explanations, a Streamlit dashboard module, and extended the duration to 2 hours. The core Cortex AI content remains identical.
+
 ## What You Will Build
 
 | What | How |
