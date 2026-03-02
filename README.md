@@ -129,7 +129,7 @@ multimodal-customer-service-lab/
 | Notebook | [notebook.ipynb](notebook.ipynb) |
 | Streamlit App | [streamlit_app.py](streamlit_app.py) |
 | Snowflake Trial | [signup.snowflake.com](https://signup.snowflake.com/) |
-| Cortex AI Docs | [docs.snowflake.com](https://docs.snowflake.com/en/sql-reference/functions-ai) |
+| Cortex AI Docs | [docs.snowflake.com](https://docs.snowflake.com/en/user-guide/snowflake-cortex/aisql) |
 | Original Quickstart | [Snowflake Quickstarts](https://quickstarts.snowflake.com/guide/extracting-insights-from-multimodal-customer-data/) |
 
 ---

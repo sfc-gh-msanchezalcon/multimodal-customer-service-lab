@@ -105,9 +105,18 @@ Set up the database, stages, and sample data needed for the lab.
 
 2. **Run Step 0: Explore Data** cells to see what you're working with
 
-3. **Run the Complex Pipeline** cell (first code cell in Part 1)
-   - This chains all 6 AI functions together
+3. **Choose your path for Part 1** — there are two ways to process the audio files:
+
+   **Option A: Complex Pipeline** (quick demo)
+   - Run the single complex pipeline cell that chains all 6 AI functions together
    - Takes ~2-3 minutes for 5 audio files
+   - Great if you want to see the end result fast
+
+   **Option B: Step-by-Step** (recommended for learning)
+   - Work through each AI function individually
+   - The final "Combine All Results" cell includes a `TRUNCATE` so it's safe to run even if you already ran Option A
+
+   > **Note:** You can do both! Run Option A first for the "wow" moment, then walk through Option B to understand each function. The TRUNCATE ensures no duplicate data.
 
 4. **Work through each AI function** step by step:
    | Function | What It Does |
@@ -392,7 +401,7 @@ You've built a complete multimodal customer service analytics system that:
 | Resource | Link |
 |----------|------|
 | Snowflake Free Trial | [signup.snowflake.com](https://signup.snowflake.com/) |
-| Cortex AI Functions | [Documentation](https://docs.snowflake.com/en/sql-reference/functions-ai) |
+| Cortex AI Functions | [Documentation](https://docs.snowflake.com/en/user-guide/snowflake-cortex/aisql) |
 | Streamlit in Snowflake | [Guide](https://docs.snowflake.com/en/developer-guide/streamlit/about-streamlit) |
 | Snowflake Notebooks | [Documentation](https://docs.snowflake.com/en/user-guide/ui-snowsight/notebooks) |
 | Original Quickstart | [Snowflake Quickstarts](https://quickstarts.snowflake.com/guide/extracting-insights-from-multimodal-customer-data/) |
