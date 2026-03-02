@@ -51,31 +51,31 @@
   <rect x="450" y="165" width="300" height="4" rx="2" fill="url(#accentGrad)"/>
   
   <!-- Tech badges -->
-  <g transform="translate(280, 200)">
+  <g transform="translate(230, 200)">
     <!-- Badge 1: Audio -->
     <g>
-      <rect x="0" y="0" width="120" height="32" rx="16" fill="rgba(255,255,255,0.15)"/>
-      <text x="60" y="21" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="white">🎙️ AI_TRANSCRIBE</text>
+      <rect x="0" y="0" width="135" height="32" rx="16" fill="rgba(255,255,255,0.15)"/>
+      <text x="67" y="21" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="white">🎙️ AI_TRANSCRIBE</text>
     </g>
     <!-- Badge 2: Sentiment -->
-    <g transform="translate(135, 0)">
-      <rect x="0" y="0" width="115" height="32" rx="16" fill="rgba(255,255,255,0.15)"/>
-      <text x="57" y="21" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="white">💬 AI_SENTIMENT</text>
+    <g transform="translate(145, 0)">
+      <rect x="0" y="0" width="130" height="32" rx="16" fill="rgba(255,255,255,0.15)"/>
+      <text x="65" y="21" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="white">💬 AI_SENTIMENT</text>
     </g>
     <!-- Badge 3: Classify -->
-    <g transform="translate(265, 0)">
-      <rect x="0" y="0" width="105" height="32" rx="16" fill="rgba(255,255,255,0.15)"/>
-      <text x="52" y="21" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="white">🏷️ AI_CLASSIFY</text>
+    <g transform="translate(285, 0)">
+      <rect x="0" y="0" width="120" height="32" rx="16" fill="rgba(255,255,255,0.15)"/>
+      <text x="60" y="21" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="white">🏷️ AI_CLASSIFY</text>
     </g>
     <!-- Badge 4: Streamlit -->
-    <g transform="translate(385, 0)">
-      <rect x="0" y="0" width="95" height="32" rx="16" fill="rgba(255,255,255,0.15)"/>
-      <text x="47" y="21" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="white">📊 Streamlit</text>
+    <g transform="translate(415, 0)">
+      <rect x="0" y="0" width="110" height="32" rx="16" fill="rgba(255,255,255,0.15)"/>
+      <text x="55" y="21" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="white">📊 Streamlit</text>
     </g>
     <!-- Badge 5: Duration -->
-    <g transform="translate(495, 0)">
-      <rect x="0" y="0" width="95" height="32" rx="16" fill="url(#accentGrad)"/>
-      <text x="47" y="21" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="white">⏱️ Duration 2h</text>
+    <g transform="translate(535, 0)">
+      <rect x="0" y="0" width="115" height="32" rx="16" fill="url(#accentGrad)"/>
+      <text x="57" y="21" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="white">⏱️ Duration 2h</text>
     </g>
   </g>
   
