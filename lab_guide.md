@@ -148,8 +148,8 @@ Set up the database, stages, and sample data needed for the lab.
 {
   "audio_duration": 45.2,
   "segments": [
-    {"speaker": "SPEAKER_00", "text": "Hello...", "start": 0.0, "end": 2.1},
-    {"speaker": "SPEAKER_01", "text": "I have an issue...", "start": 2.5, "end": 8.3}
+    {"speaker_label": "SPEAKER_00", "text": "Hello...", "start": 0.0, "end": 2.1},
+    {"speaker_label": "SPEAKER_01", "text": "I have an issue...", "start": 2.5, "end": 8.3}
   ]
 }
 ```
